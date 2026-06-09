@@ -5,13 +5,13 @@
         {
             "id": "com.prismplus.syncfolder",
             "name": "SyncFolder",
-            "version": "1.0.0",
+            "version": "1.1.0",
             "author": "webe132",
-            "description": "Keeps a chosen folder in sync across all instances.",
-            "longDescription": "Mirrors a chosen folder across all of your instances, so a file saved while playing one version is available in every other. Pick which folder to sync from the settings page: shaders, resource packs, schematics or worlds. The newest copy of each file always wins.",
+            "description": "Syncs chosen folders between all instances through one shared folder.",
+            "longDescription": "Keeps chosen folders in sync across all of your instances. It uses one shared folder as a hub: every selected folder is mirrored between that hub and each instance, so a file saved while playing one version is available in every other. Tick which folders to sync (shaders, resource packs, schematics, worlds), optionally set a custom shared folder path, and the newest copy of each file always wins. Nested files such as worlds are handled too.",
             "homepage": "https://github.com/webe132/PrismExtensions/tree/main/extensions/syncfolder",
             "categories": ["utility", "files"],
-            "downloadUrl": "https://raw.githubusercontent.com/webe132/PrismExtensions/main/extensions/syncfolder/syncfolder-1.0.0.zip",
+            "downloadUrl": "https://raw.githubusercontent.com/webe132/PrismExtensions/main/extensions/syncfolder/syncfolder-1.1.0.zip",
             "permissions": ["instances", "files", "notifications"]
         }
     ]

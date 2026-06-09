@@ -1,15 +1,43 @@
 {
     "tabs": [
         {
-            "title": "General",
+            "title": "Folders",
             "fields": [
                 {
-                    "key": "folder",
-                    "label": "Folder to sync",
-                    "description": "Which folder to keep in sync across all instances.",
-                    "type": "choice",
-                    "options": ["Shaders", "Resource packs", "Schematics", "Worlds"],
-                    "default": "Schematics"
+                    "key": "syncShaders",
+                    "label": "Sync shaders",
+                    "type": "bool",
+                    "default": false
+                },
+                {
+                    "key": "syncResourcePacks",
+                    "label": "Sync resource packs",
+                    "type": "bool",
+                    "default": false
+                },
+                {
+                    "key": "syncSchematics",
+                    "label": "Sync schematics",
+                    "type": "bool",
+                    "default": true
+                },
+                {
+                    "key": "syncWorlds",
+                    "label": "Sync worlds",
+                    "type": "bool",
+                    "default": false
+                }
+            ]
+        },
+        {
+            "title": "Storage",
+            "fields": [
+                {
+                    "key": "hubPath",
+                    "label": "Shared folder path",
+                    "description": "Folder where synced files are kept. Leave empty to use the extension's own data folder.",
+                    "type": "string",
+                    "default": ""
                 },
                 {
                     "key": "notify",
