@@ -1,0 +1,18 @@
+{
+    "formatVersion": 1,
+    "name": "PrismExtensions",
+    "addons": [
+        {
+            "id": "com.prismplus.schematic-sync",
+            "name": "Schematic Sync",
+            "version": "1.0.0",
+            "author": "PrismLauncher +",
+            "description": "Keeps the schematics folder in sync across all instances.",
+            "longDescription": "Mirrors the schematics folder across all of your instances, so a schematic saved while playing one version is available in every other. The newest copy of each file always wins. Works with Litematica, WorldEdit and structure NBT files, and adds a settings page.",
+            "homepage": "https://github.com/webe132/PrismExtensions/tree/main/extensions/schematic-sync",
+            "categories": ["utility", "files"],
+            "downloadUrl": "https://raw.githubusercontent.com/webe132/PrismExtensions/main/extensions/schematic-sync/schematic-sync-1.0.0.zip",
+            "permissions": ["instances", "files", "notifications"]
+        }
+    ]
+}

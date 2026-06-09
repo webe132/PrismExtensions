@@ -1,0 +1,12 @@
+{
+    "formatVersion": 1,
+    "id": "com.prismplus.schematic-sync",
+    "name": "Schematic Sync",
+    "version": "1.0.0",
+    "author": "PrismLauncher +",
+    "description": "Keeps the schematics folder in sync across all instances, so a schematic saved in one version is available in every other.",
+    "homepage": "https://github.com/webe132/PrismExtensions",
+    "entry": "main.js",
+    "permissions": ["instances", "files", "notifications"],
+    "settings": true
+}
