@@ -3,7 +3,7 @@
     "id": "com.prismplus.syncfolder",
     "name": "SyncFolder",
     "version": "1.0.0",
-    "author": "PrismLauncher +",
+    "author": "webe132",
     "description": "Keeps a chosen folder (shaders, resource packs, schematics or worlds) in sync across all instances.",
     "homepage": "https://github.com/webe132/PrismExtensions",
     "entry": "main.js",

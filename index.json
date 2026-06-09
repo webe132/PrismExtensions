@@ -6,7 +6,7 @@
             "id": "com.prismplus.syncfolder",
             "name": "SyncFolder",
             "version": "1.0.0",
-            "author": "PrismLauncher +",
+            "author": "webe132",
             "description": "Keeps a chosen folder in sync across all instances.",
             "longDescription": "Mirrors a chosen folder across all of your instances, so a file saved while playing one version is available in every other. Pick which folder to sync from the settings page: shaders, resource packs, schematics or worlds. The newest copy of each file always wins.",
             "homepage": "https://github.com/webe132/PrismExtensions/tree/main/extensions/syncfolder",
