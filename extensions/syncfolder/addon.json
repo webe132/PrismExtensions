@@ -1,10 +1,10 @@
 {
     "formatVersion": 1,
-    "id": "com.prismplus.schematic-sync",
-    "name": "Schematic Sync",
+    "id": "com.prismplus.syncfolder",
+    "name": "SyncFolder",
     "version": "1.0.0",
     "author": "PrismLauncher +",
-    "description": "Keeps the schematics folder in sync across all instances, so a schematic saved in one version is available in every other.",
+    "description": "Keeps a chosen folder (shaders, resource packs, schematics or worlds) in sync across all instances.",
     "homepage": "https://github.com/webe132/PrismExtensions",
     "entry": "main.js",
     "permissions": ["instances", "files", "notifications"],

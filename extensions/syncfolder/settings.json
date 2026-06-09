@@ -1,0 +1,23 @@
+{
+    "tabs": [
+        {
+            "title": "General",
+            "fields": [
+                {
+                    "key": "folder",
+                    "label": "Folder to sync",
+                    "description": "Which folder to keep in sync across all instances.",
+                    "type": "choice",
+                    "options": ["Shaders", "Resource packs", "Schematics", "Worlds"],
+                    "default": "Schematics"
+                },
+                {
+                    "key": "notify",
+                    "label": "Show a notification after syncing",
+                    "type": "bool",
+                    "default": true
+                }
+            ]
+        }
+    ]
+}
